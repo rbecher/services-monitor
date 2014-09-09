@@ -1,0 +1,34 @@
+{
+  "name": "services-monitor",
+  "version": "0.0.1",
+  "description": "A simple ping-based services monitor using node-webkit",
+  "main": "app.html",
+  "window": {
+    "title": "services-monitory",
+    "toolbar": false,
+    "frame": false,
+    "resizable": false,
+    "position": "top right",
+    "width": 100,
+    "height": 50
+  },
+  "webkit": {
+    "plugin": true
+  },
+  "repository": {
+    "url": "https://github.com/rbecher/services-monitor.git"
+  },
+  "author": {
+    "name": "Ronald Brachetti",
+    "url": "rb@ronald-becher.com"
+  },
+  "node-remote": "<local>",
+  "dependencies": {
+    "node-webkit-builder": "0.0.2"
+  },
+  "devDependencies": {
+    "coffee-script": "^1.8.0",
+    "gulp": "^3.6.2",
+    "gulp-shell": "^0.2.5"
+  }
+}
